@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    /* width: 280px;
+    height: 400px; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* text-align: center; */
+}
+
+.main{
+    width: 280px;
+    height: 400px;
+    padding-top: 95px;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 1px solid silver;
+    position: relative;
+    text-align: center;  
+}
+
+.email label{
+    font-size: 20px;
+}
+
+.password label{
+    font-size: 20px;
+}
+
+.input_e{
+    width: 250px;
+    height: 30px;
+}
+
+.input_pass{
+    width: 250px;
+    height: 30px;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    transition: 0.2s;
+    background: black;
+    color: white;
+}
+
+.btn:hover{
+    transform: scale(1.02);
+    z-index: 1;
+}
+

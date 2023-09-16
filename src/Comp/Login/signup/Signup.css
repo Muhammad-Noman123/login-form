@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* width: 280px;
+    height: 400px; */
+    position: absolute;
+    left: 676px;
+    top: 145px;
+    /* text-align: center; */
+
+}
+.form{
+    width: 280px;
+    height: 400px;
+    padding-top: 95px;
+   margin: 0px auto;
+   border-radius: 2px;
+   border-top: none;
+   border: 1px solid silver;
+   position: relative;
+   text-align: center;   
+}
+
+/* .username{
+    margin: 10px;
+    padding: 100px;
+    position: absolute;
+    text-align: center;
+} */
+.username label{
+    font-size: 20px;
+}
+.email label{
+    font-size: 20px;
+}
+.phone label{
+    font-size: 20px;
+}
+.password label{
+    font-size: 20px;
+}
+
+.user_input{
+    width: 250px;
+    height: 30px;
+}
+.phone_input{
+    width: 250px;
+    height: 30px;
+}
+
+.email_input{
+    width: 250px;
+    height: 30px;
+}
+
+.password_input{
+    width: 250px;
+    height: 30px;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    transition: 0.2s;
+    background: black;
+    color: white;
+}
+
+.btn:hover{
+    transform: scale(1.02);
+    z-index: 1;
+}
